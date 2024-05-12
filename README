@@ -1,0 +1,8 @@
+Thumbnailer for FictionBook e-books for Nautilus (aka GNOME Files).
+
+To build, run:
+    meson setup --prefix=/usr builddir
+    meson compile -C builddir
+
+To install, run:
+    meson install -C builddir

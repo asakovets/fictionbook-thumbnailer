@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=@bindir@/fictionbook-thumbnailer
+Exec=@bindir@/fictionbook-thumbnailer -s %s %u %o
+MimeType=application/x-fictionbook+xml;application/x-zip-compressed-fb2;
